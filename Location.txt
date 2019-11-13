@@ -1,0 +1,875 @@
+internalType: "CompilationUnit"
+startPosition {
+  line: 1
+  col: 1
+}
+endPosition {
+  line: 25
+  col: 1
+}
+children {
+  internalType: "PackageDeclaration"
+  startPosition {
+    line: 1
+    col: 1
+  }
+  endPosition {
+    line: 1
+    col: 17
+  }
+  token: "com.test"
+}
+children {
+  internalType: "ClassOrInterfaceDeclaration"
+  startPosition {
+    line: 3
+    col: 1
+  }
+  endPosition {
+    line: 24
+    col: 1
+  }
+  children {
+    internalType: "Modifier"
+    startPosition {
+      line: 3
+      col: 1
+    }
+    endPosition {
+      line: 24
+      col: 1
+    }
+    token: "public"
+  }
+  children {
+    internalType: "SimpleName"
+    startPosition {
+      line: 3
+      col: 14
+    }
+    endPosition {
+      line: 3
+      col: 21
+    }
+    token: "Location"
+  }
+  children {
+    internalType: "FieldDeclaration"
+    startPosition {
+      line: 6
+      col: 2
+    }
+    endPosition {
+      line: 6
+      col: 44
+    }
+    children {
+      internalType: "VariableDeclarator"
+      roles: Declaration
+      startPosition {
+        line: 6
+        col: 24
+      }
+      endPosition {
+        line: 6
+        col: 43
+      }
+      children {
+        internalType: "ClassOrInterfaceType"
+        roles: Type
+        roles: Declaration
+        startPosition {
+          line: 6
+          col: 17
+        }
+        endPosition {
+          line: 6
+          col: 22
+        }
+        children {
+          internalType: "SimpleName"
+          roles: Type
+          roles: Declaration
+          startPosition {
+            line: 6
+            col: 17
+          }
+          endPosition {
+            line: 6
+            col: 22
+          }
+          token: "String"
+        }
+        token: "Type:String"
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Declaration
+        roles: Identifier
+        startPosition {
+          line: 6
+          col: 24
+        }
+        endPosition {
+          line: 6
+          col: 43
+        }
+        token: "outputFolderLocation"
+      }
+    }
+  }
+  children {
+    internalType: "FieldDeclaration"
+    startPosition {
+      line: 7
+      col: 2
+    }
+    endPosition {
+      line: 7
+      col: 43
+    }
+    children {
+      internalType: "VariableDeclarator"
+      roles: Declaration
+      startPosition {
+        line: 7
+        col: 24
+      }
+      endPosition {
+        line: 7
+        col: 42
+      }
+      children {
+        internalType: "ClassOrInterfaceType"
+        roles: Type
+        roles: Declaration
+        startPosition {
+          line: 7
+          col: 17
+        }
+        endPosition {
+          line: 7
+          col: 22
+        }
+        children {
+          internalType: "SimpleName"
+          roles: Type
+          roles: Declaration
+          startPosition {
+            line: 7
+            col: 17
+          }
+          endPosition {
+            line: 7
+            col: 22
+          }
+          token: "String"
+        }
+        token: "Type:String"
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Declaration
+        roles: Identifier
+        startPosition {
+          line: 7
+          col: 24
+        }
+        endPosition {
+          line: 7
+          col: 42
+        }
+        token: "inputFolderLocation"
+      }
+    }
+  }
+  children {
+    internalType: "MethodDeclaration"
+    startPosition {
+      line: 9
+      col: 2
+    }
+    endPosition {
+      line: 11
+      col: 2
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 9
+        col: 2
+      }
+      endPosition {
+        line: 11
+        col: 2
+      }
+      token: "public"
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 9
+        col: 2
+      }
+      endPosition {
+        line: 11
+        col: 2
+      }
+      token: "static"
+    }
+    children {
+      internalType: "SimpleName"
+      startPosition {
+        line: 9
+        col: 23
+      }
+      endPosition {
+        line: 9
+        col: 44
+      }
+      token: "getInputFolderLocation"
+    }
+    children {
+      internalType: "ClassOrInterfaceType"
+      roles: Type
+      startPosition {
+        line: 9
+        col: 16
+      }
+      endPosition {
+        line: 9
+        col: 21
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Type
+        startPosition {
+          line: 9
+          col: 16
+        }
+        endPosition {
+          line: 9
+          col: 21
+        }
+        token: "String"
+      }
+      token: "Type:String"
+    }
+    children {
+      internalType: "BlockStmt"
+      startPosition {
+        line: 9
+        col: 48
+      }
+      endPosition {
+        line: 11
+        col: 2
+      }
+      children {
+        internalType: "ReturnStmt"
+        startPosition {
+          line: 10
+          col: 3
+        }
+        endPosition {
+          line: 10
+          col: 29
+        }
+        children {
+          internalType: "NameExpr"
+          startPosition {
+            line: 10
+            col: 10
+          }
+          endPosition {
+            line: 10
+            col: 28
+          }
+          children {
+            internalType: "SimpleName"
+            startPosition {
+              line: 10
+              col: 10
+            }
+            endPosition {
+              line: 10
+              col: 28
+            }
+            token: "inputFolderLocation"
+          }
+        }
+      }
+    }
+  }
+  children {
+    internalType: "MethodDeclaration"
+    startPosition {
+      line: 13
+      col: 2
+    }
+    endPosition {
+      line: 15
+      col: 2
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 13
+        col: 2
+      }
+      endPosition {
+        line: 15
+        col: 2
+      }
+      token: "public"
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 13
+        col: 2
+      }
+      endPosition {
+        line: 15
+        col: 2
+      }
+      token: "static"
+    }
+    children {
+      internalType: "SimpleName"
+      startPosition {
+        line: 13
+        col: 21
+      }
+      endPosition {
+        line: 13
+        col: 42
+      }
+      token: "setInputFolderLocation"
+    }
+    children {
+      internalType: "Parameter"
+      roles: Argument
+      startPosition {
+        line: 13
+        col: 44
+      }
+      endPosition {
+        line: 13
+        col: 69
+      }
+      children {
+        internalType: "ClassOrInterfaceType"
+        roles: Type
+        roles: Argument
+        startPosition {
+          line: 13
+          col: 44
+        }
+        endPosition {
+          line: 13
+          col: 49
+        }
+        children {
+          internalType: "SimpleName"
+          roles: Type
+          roles: Argument
+          startPosition {
+            line: 13
+            col: 44
+          }
+          endPosition {
+            line: 13
+            col: 49
+          }
+          token: "String"
+        }
+        token: "Type:String"
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Identifier
+        roles: Argument
+        startPosition {
+          line: 13
+          col: 51
+        }
+        endPosition {
+          line: 13
+          col: 69
+        }
+        token: "inputFolderLocation"
+      }
+    }
+    children {
+      internalType: "VoidType"
+      startPosition {
+        line: 13
+        col: 16
+      }
+      endPosition {
+        line: 13
+        col: 19
+      }
+      token: "void"
+    }
+    children {
+      internalType: "BlockStmt"
+      startPosition {
+        line: 13
+        col: 72
+      }
+      endPosition {
+        line: 15
+        col: 2
+      }
+      children {
+        internalType: "ExpressionStmt"
+        startPosition {
+          line: 14
+          col: 3
+        }
+        endPosition {
+          line: 14
+          col: 53
+        }
+        children {
+          internalType: "AssignExpr"
+          startPosition {
+            line: 14
+            col: 3
+          }
+          endPosition {
+            line: 14
+            col: 52
+          }
+          children {
+            internalType: "FieldAccessExpr"
+            roles: Left
+            startPosition {
+              line: 14
+              col: 3
+            }
+            endPosition {
+              line: 14
+              col: 30
+            }
+            children {
+              internalType: "NameExpr"
+              roles: Scope
+              roles: Left
+              startPosition {
+                line: 14
+                col: 3
+              }
+              endPosition {
+                line: 14
+                col: 10
+              }
+              children {
+                internalType: "SimpleName"
+                roles: Scope
+                roles: Left
+                startPosition {
+                  line: 14
+                  col: 3
+                }
+                endPosition {
+                  line: 14
+                  col: 10
+                }
+                token: "Location"
+              }
+            }
+            children {
+              internalType: "SimpleName"
+              roles: Left
+              roles: Identifier
+              startPosition {
+                line: 14
+                col: 12
+              }
+              endPosition {
+                line: 14
+                col: 30
+              }
+              token: "inputFolderLocation"
+            }
+            token: "FieldAccess:inputFolderLocation"
+          }
+          children {
+            internalType: "NameExpr"
+            roles: Right
+            startPosition {
+              line: 14
+              col: 34
+            }
+            endPosition {
+              line: 14
+              col: 52
+            }
+            children {
+              internalType: "SimpleName"
+              roles: Right
+              startPosition {
+                line: 14
+                col: 34
+              }
+              endPosition {
+                line: 14
+                col: 52
+              }
+              token: "inputFolderLocation"
+            }
+          }
+          token: "ASSIGN"
+        }
+      }
+    }
+  }
+  children {
+    internalType: "MethodDeclaration"
+    startPosition {
+      line: 17
+      col: 2
+    }
+    endPosition {
+      line: 19
+      col: 2
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 17
+        col: 2
+      }
+      endPosition {
+        line: 19
+        col: 2
+      }
+      token: "public"
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 17
+        col: 2
+      }
+      endPosition {
+        line: 19
+        col: 2
+      }
+      token: "static"
+    }
+    children {
+      internalType: "SimpleName"
+      startPosition {
+        line: 17
+        col: 23
+      }
+      endPosition {
+        line: 17
+        col: 45
+      }
+      token: "getOutputFolderLocation"
+    }
+    children {
+      internalType: "ClassOrInterfaceType"
+      roles: Type
+      startPosition {
+        line: 17
+        col: 16
+      }
+      endPosition {
+        line: 17
+        col: 21
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Type
+        startPosition {
+          line: 17
+          col: 16
+        }
+        endPosition {
+          line: 17
+          col: 21
+        }
+        token: "String"
+      }
+      token: "Type:String"
+    }
+    children {
+      internalType: "BlockStmt"
+      startPosition {
+        line: 17
+        col: 49
+      }
+      endPosition {
+        line: 19
+        col: 2
+      }
+      children {
+        internalType: "ReturnStmt"
+        startPosition {
+          line: 18
+          col: 3
+        }
+        endPosition {
+          line: 18
+          col: 30
+        }
+        children {
+          internalType: "NameExpr"
+          startPosition {
+            line: 18
+            col: 10
+          }
+          endPosition {
+            line: 18
+            col: 29
+          }
+          children {
+            internalType: "SimpleName"
+            startPosition {
+              line: 18
+              col: 10
+            }
+            endPosition {
+              line: 18
+              col: 29
+            }
+            token: "outputFolderLocation"
+          }
+        }
+      }
+    }
+  }
+  children {
+    internalType: "MethodDeclaration"
+    startPosition {
+      line: 21
+      col: 2
+    }
+    endPosition {
+      line: 23
+      col: 2
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 21
+        col: 2
+      }
+      endPosition {
+        line: 23
+        col: 2
+      }
+      token: "public"
+    }
+    children {
+      internalType: "Modifier"
+      startPosition {
+        line: 21
+        col: 2
+      }
+      endPosition {
+        line: 23
+        col: 2
+      }
+      token: "static"
+    }
+    children {
+      internalType: "SimpleName"
+      startPosition {
+        line: 21
+        col: 21
+      }
+      endPosition {
+        line: 21
+        col: 43
+      }
+      token: "setOutputFolderLocation"
+    }
+    children {
+      internalType: "Parameter"
+      roles: Argument
+      startPosition {
+        line: 21
+        col: 45
+      }
+      endPosition {
+        line: 21
+        col: 71
+      }
+      children {
+        internalType: "ClassOrInterfaceType"
+        roles: Type
+        roles: Argument
+        startPosition {
+          line: 21
+          col: 45
+        }
+        endPosition {
+          line: 21
+          col: 50
+        }
+        children {
+          internalType: "SimpleName"
+          roles: Type
+          roles: Argument
+          startPosition {
+            line: 21
+            col: 45
+          }
+          endPosition {
+            line: 21
+            col: 50
+          }
+          token: "String"
+        }
+        token: "Type:String"
+      }
+      children {
+        internalType: "SimpleName"
+        roles: Identifier
+        roles: Argument
+        startPosition {
+          line: 21
+          col: 52
+        }
+        endPosition {
+          line: 21
+          col: 71
+        }
+        token: "outputFolderLocation"
+      }
+    }
+    children {
+      internalType: "VoidType"
+      startPosition {
+        line: 21
+        col: 16
+      }
+      endPosition {
+        line: 21
+        col: 19
+      }
+      token: "void"
+    }
+    children {
+      internalType: "BlockStmt"
+      startPosition {
+        line: 21
+        col: 74
+      }
+      endPosition {
+        line: 23
+        col: 2
+      }
+      children {
+        internalType: "ExpressionStmt"
+        startPosition {
+          line: 22
+          col: 3
+        }
+        endPosition {
+          line: 22
+          col: 55
+        }
+        children {
+          internalType: "AssignExpr"
+          startPosition {
+            line: 22
+            col: 3
+          }
+          endPosition {
+            line: 22
+            col: 54
+          }
+          children {
+            internalType: "FieldAccessExpr"
+            roles: Left
+            startPosition {
+              line: 22
+              col: 3
+            }
+            endPosition {
+              line: 22
+              col: 31
+            }
+            children {
+              internalType: "NameExpr"
+              roles: Scope
+              roles: Left
+              startPosition {
+                line: 22
+                col: 3
+              }
+              endPosition {
+                line: 22
+                col: 10
+              }
+              children {
+                internalType: "SimpleName"
+                roles: Scope
+                roles: Left
+                startPosition {
+                  line: 22
+                  col: 3
+                }
+                endPosition {
+                  line: 22
+                  col: 10
+                }
+                token: "Location"
+              }
+            }
+            children {
+              internalType: "SimpleName"
+              roles: Left
+              roles: Identifier
+              startPosition {
+                line: 22
+                col: 12
+              }
+              endPosition {
+                line: 22
+                col: 31
+              }
+              token: "outputFolderLocation"
+            }
+            token: "FieldAccess:outputFolderLocation"
+          }
+          children {
+            internalType: "NameExpr"
+            roles: Right
+            startPosition {
+              line: 22
+              col: 35
+            }
+            endPosition {
+              line: 22
+              col: 54
+            }
+            children {
+              internalType: "SimpleName"
+              roles: Right
+              startPosition {
+                line: 22
+                col: 35
+              }
+              endPosition {
+                line: 22
+                col: 54
+              }
+              token: "outputFolderLocation"
+            }
+          }
+          token: "ASSIGN"
+        }
+      }
+    }
+  }
+}
+
