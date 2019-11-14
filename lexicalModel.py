@@ -197,16 +197,6 @@ class TokenGenerator(TokenWeights):
 		self.global_class_var.append(self.class_var) #add the variable declartion list of the last class
 		self.MethodSummarizer()
 					
-	def ToFileWriter(self):
-		fp = open("Tokens", "w")
-		for token in self.tokens:
-			fp.write(token + "\n")
-		fp = open("ClassDeclarations", "w")
-		for var in self.class_var:
-			fp.write(var + "\n")
-#		fp = open("MethodDeclarations","w")
-#		for var in self.method_var:
-#			fp.write(var + "\n")	
 						
 if(__name__ == "__main__"):
 	TG = TokenGenerator("Native2ASCIIEncoding.txt")
