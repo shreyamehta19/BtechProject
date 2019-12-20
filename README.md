@@ -1,7 +1,7 @@
 # BtechProject
 Code Summarizer
 
-lexicalMode.py tries to summarize the code using the lexical structure of the code.
+code.py tries to summarize the code using the lexical structure of the code.
 The code has two main classes:
 
 1)TokenGenerator : Which takes UAST file of the code as the input. Generates token and classifies them into methods using stack datastructure. The output is as:
