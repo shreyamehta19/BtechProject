@@ -1,11 +1,8 @@
-
 """The Python implementation of the GRPC helloworld.Greeter server."""
 
 from concurrent import futures
 import logging
-
 import grpc
-
 import transfer_pb2
 import transfer_pb2_grpc
 
